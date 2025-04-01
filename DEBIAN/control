@@ -1,5 +1,5 @@
 Package: dbt
-Version: 1.0
+Version: 1.0.0
 Architecture: all
 Maintainer: nsn90255 <nsn90255@gmail.com>
 Depends: openjdk-17-jre, systemd

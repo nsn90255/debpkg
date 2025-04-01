@@ -2,6 +2,7 @@
 touch /var/log/blockdaemon.log
 chown root:root /var/log/blockdaemon.log
 chmod 644 /var/log/blockdaemon.log
+chmod 744 /usr/local/bin/dbt
 project -s > /dev/null
 systemctl daemon-reload
 systemctl enable dbt.service
