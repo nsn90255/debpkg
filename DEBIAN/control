@@ -1,0 +1,6 @@
+Package: project
+Version: 1.0.0
+Architecture: all
+Maintainer: nsn90255 <nsn90255@gmail.com>
+Depends: default-jre, systemd
+Description: Block websites and domain names.

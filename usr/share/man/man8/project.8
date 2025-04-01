@@ -1,0 +1,39 @@
+.TH PROJECT 8 PROJECT\-ALPHA\-1.1
+.SH NAME
+project \- domain blocker
+.SH SYNOPSIS
+.B project
+.RB [ \-u | \-b | \-v ]
+.br
+.B project
+.RB [ \-a | \-r ]
+.I domain
+.SH DESCRIPTION
+project is used to block domain names for websites.
+.SH OPTIONS
+.TP
+.B \-u
+Unblock domains.
+.TP
+.B \-b
+Block domains.
+.TP
+.B \-a
+Add a domain to block.
+.TP
+.B \-r
+Remove a blocked domain.
+.TP
+.B \-s
+Check if running or not.
+.TP
+.B \-v
+Print version information.
+.TP
+.B \-i
+Ignore blocking for 1h. Can be done every 24h.
+.TP
+.B \-d
+Copy default config to system config. The default config is stored in /var/lib/project/defaults.conf
+.SH SEE ALSO
+.BR blocklist.conf (1)
