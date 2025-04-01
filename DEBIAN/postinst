@@ -4,5 +4,5 @@ chown root:root /var/log/blockdaemon.log
 chmod 644 /var/log/blockdaemon.log
 project -s > /dev/null
 systemctl daemon-reload
-systemctl enable project.service
-systemctl start project.service
+systemctl enable dbt.service
+systemctl start dbt.service
